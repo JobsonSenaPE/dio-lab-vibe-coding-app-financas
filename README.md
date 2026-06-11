@@ -1,3 +1,5 @@
+o modificado está na parte de entregáveis!!!
+
 # 💸 App de Organização de Finanças Pessoais com Vibe Coding
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
@@ -73,13 +75,112 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
+- SEU PROMPT FINAL:
+  EDITADO PELO COPILOT
+📑 Product Requirements Document (PRD)
+🎯 Contexto
+O aplicativo será um organizador de finanças pessoais baseado em conversas naturais, em português do Brasil, com suporte a texto e voz.
+O diferencial é a simplicidade e acessibilidade, permitindo que qualquer pessoa, independentemente da escolaridade ou familiaridade com finanças, consiga registrar e acompanhar seus gastos sem precisar lidar com termos técnicos ou planilhas complexas.
+O núcleo da experiência será o Agente Financeiro, que interage de forma multimodal (chat e áudio) e adapta a linguagem conforme o nível de conhecimento do usuário.
+
+🚨 Problema
+Muitos usuários desistem de controlar suas finanças porque os aplicativos atuais:
+
+Exigem muita entrada manual.
+
+Usam termos técnicos difíceis.
+
+Complicam cálculos de impostos e descontos.
+
+Oferecem pouca personalização.
+
+👉 O objetivo é reduzir a fricção: menos cliques, menos telas, mais conversa.
+A solução é um chat pessoal que registra gastos, sugere economia e educa financeiramente de forma simples.
+
+👥 Público-Alvo
+Pessoas que querem começar a organizar suas finanças de forma prática.
+
+Usuários iniciantes, de qualquer idade ou escolaridade.
+
+Pessoas que buscam linguagem acessível e explicações claras.
+
+👉 O app deve adaptar a linguagem: termos simples para iniciantes e mais técnicos para usuários avançados.
+
+⚙️ Funcionalidades-Chave
+Registro de gastos via chat em português (texto e áudio).
+
+Classificação automática das transações.
+
+Metas financeiras simples e visuais.
+
+Agente Financeiro com recomendações de economia.
+
+Relatórios personalizados em linguagem acessível.
+
+Educação financeira integrada: perguntas e respostas sobre gastos, ganhos, investimentos e dívidas.
+
+👉 No MVP, priorizar funcionalidades 1 a 4. Relatórios e educação financeira entram como extensões após validação inicial.
+
+🚀 Plano de MVP
+Telas Principais
+Tela de Conversa: núcleo do app, onde o usuário registra gastos e recebe dicas.
+
+Tela de Metas: definição e acompanhamento de objetivos (ex.: guardar R$200/mês).
+
+Tela de Relatórios Simples: visão rápida de gastos por categoria.
+
+Tela de Educação Financeira (beta): espaço para perguntas ao Agente Financeiro.
+
+Recursos Necessários
+Processamento de linguagem natural (PT-BR).
+
+Reconhecimento de voz para entrada por áudio.
+
+Motor de classificação automática (categorias de gastos).
+
+Módulo de metas e alertas.
+
+Agente Financeiro com dicas e explicações simples.
+
+Banco de dados leve para armazenar transações e preferências.
+
+📊 Validação Inicial
+Testar com 20–30 usuários iniciantes em finanças.
+
+Avaliar:
+
+Facilidade de registrar gastos via conversa.
+
+Clareza das dicas do Agente Financeiro.
+
+Utilidade dos relatórios simples.
+
+Coletar feedback sobre linguagem, acessibilidade e personalização.
+
+Iterar antes de expandir para relatórios avançados e educação financeira completa.
+
+✅ Conclusão
+Este PRD define um MVP centrado em chat, classificação automática, metas e dicas.
+Essas funcionalidades já entregam valor imediato e diferenciam o app dos concorrentes.
+Relatórios e educação financeira podem ser adicionados após validação inicial com usuários reais. 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- Prints ou pequenos vídeos das interações com a IA;
+- <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a954228d-b626-44d3-963d-f00195d4e975" />
+  nÃO SEI COMO COLOCAR PRINTS AQUI.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- Um resumo do que o seu **App de Finanças Pessoais** faz;
+
+  Um asistênte de finanças, que funciona via chat pessoal, tanto em áudio como em texto, com relatórios e dicas de como controlar as finaças pessoais,
+  em liguagem natural, voltado para pessoas iniciantes ou com pouca educação digital.
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+  - O que funcionou bem?  Toda a parte de edição do Copilot, com muitas melhorias. O Lovable também trouxe questionamentos importantes para a contrução do aplicativo,
+  que será incluído nos próximos PRDs que eu construir para diminuir os ajustes e aumentas a produtividade.
+
+  - O que não funcionou como o esperado?  O Lovabel, que tem pouquíssimo crédito e acabou não concluindo o projeto. TAmbém nçao conseguiutilizar o Copilot Studio, pois precisa de um email comercial.
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    
+  - O que aprendeu sobre conversar com IAs?  Quanto mais claro e detalhado for o prompt, menos ajustes serão necessários, menos créditos serão utilizados e melhor o resultado final. 
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
